@@ -56,16 +56,134 @@ int main ()
     /*************************************************/
 
     // simple_test();
-    speed_test();
-
+    //speed_test();
+        int count;
+        count=0;
     while(true){
-
+        
         // Write the parts of your code which should run in a loop between here..
+        Wheel.Speed(-0.9,0.4); 
 
+        wait_us(1000*1000); 
 
+        Wheel.Speed(0.4,-0.9); 
 
+        wait_us(1000*1000); 
+
+        Wheel.Speed(-0.9,0.4); 
+
+        wait_us(750*1000); 
+
+        Wheel.Speed(0.4,-0.9); 
+
+        wait_us(750*1000); 
+
+        Wheel.Speed(-0.9,0.4); 
+
+        wait_us(500*1000); 
+
+        Wheel.Speed(0.4,-0.9); 
+         wait_us(500*1000); 
+
+        Wheel.Speed(-0.9,0.4); 
+
+        wait_us(400*1000); 
+
+        Wheel.Speed(0.4,-0.9); 
+
+        wait_us(400*1000); 
+
+        Wheel.Speed(-0.9,0.4); 
+
+        wait_us(300*1000); 
+
+        Wheel.Speed(0.4,-0.9); 
+
+        wait_us(300*1000); 
+
+        Wheel.Speed(-0.9,0.4); 
+
+        wait_us(200*1000); 
+
+        Wheel.Speed(0.4,-0.9); 
+
+        wait_us(200*1000); 
+
+        Wheel.Speed(-0.9,0.4); 
+
+        wait_us(100*1000); 
+
+        Wheel.Speed(0.4,-0.9); 
+
+        wait_us(100*1000); 
+
+        Wheel.Speed(-0.9,0.4); 
+
+        wait_us(200*1000); 
+
+        Wheel.Speed(0.4,-0.9); 
+
+        wait_us(200*1000); 
+
+        Wheel.Speed(-0.9,0.4); 
+
+        wait_us(100*1000); 
+
+        Wheel.Speed(0.4,-0.9); 
+
+        wait_us(100*1000); 
+
+        Wheel.Speed(-0.9,0.4); 
+
+        wait_us(200*1000); 
+
+        Wheel.Speed(0.4,-0.9); 
+
+        wait_us(200*1000); 
+
+        Wheel.Speed(-0.9,0.4); 
+
+        wait_us(100*1000); 
+
+        Wheel.Speed(0.4,-0.9); 
+
+        wait_us(100*1000); 
+
+        Wheel.Speed(-0.9,0.4); 
+
+        wait_us(200*1000); 
+
+        Wheel.Speed(0.4,-0.9); 
+
+        wait_us(200*1000); 
+
+        Wheel.Speed(-0.9,0.4); 
+
+        wait_us(100*1000); 
+
+        Wheel.Speed(0.4,-0.9); 
+
+        wait_us(100*1000); 
+
+        Wheel.Speed(-0.9,0.4); 
+
+        wait_us(200*1000); 
+
+        Wheel.Speed(0.4,-0.9); 
+
+        wait_us(200*1000); 
+
+        Wheel.Speed(-0.9,0.4); 
+
+        wait_us(100*1000); 
+
+        Wheel.Speed(0.4,-0.9); 
+
+        wait_us(100*1000); 
+        Wheel.Stop();
+        wait_us(1000*1000);
 
         // ..and here
-
+        
     };
 }
