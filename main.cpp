@@ -55,130 +55,40 @@ int main ()
     // If these lines are left in the lines below will never run
     /*************************************************/
 
-    // simple_test();
+    //simple_test();
     //speed_test();
         int count;
         count=0;
     while(true){
         
         // Write the parts of your code which should run in a loop between here..
-        Wheel.Speed(-0.9,0.4); 
+    while(count<=7)  
+    {  
 
-        wait_us(1000*1000); 
+    Wheel.Speed(1,0.95);  
 
-        Wheel.Speed(0.4,-0.9); 
+    wait_us(2700*1000);  // forward
 
-        wait_us(1000*1000); 
+    Wheel.Speed(-0.8,-0.8);  
 
-        Wheel.Speed(-0.9,0.4); 
+    wait_us(2000*1000);  //reverse  
 
-        wait_us(750*1000); 
+    Wheel.Speed(0.9,-0.9);  //speed 90 percent
 
-        Wheel.Speed(0.4,-0.9); 
+    wait_us(1100*1000);  //right turn 90 deg
 
-        wait_us(750*1000); 
+    Wheel.Speed(0.7,0.7);  // speed 70 percent
 
-        Wheel.Speed(-0.9,0.4); 
+    wait_us(800*1000);  //side ways movement
 
-        wait_us(500*1000); 
+    Wheel.Speed(-0.8,0.8); 
+    wait_us(700*1000); // turn left 90 deg 
 
-        Wheel.Speed(0.4,-0.9); 
-         wait_us(500*1000); 
+    count=count+1;  
 
-        Wheel.Speed(-0.9,0.4); 
-
-        wait_us(400*1000); 
-
-        Wheel.Speed(0.4,-0.9); 
-
-        wait_us(400*1000); 
-
-        Wheel.Speed(-0.9,0.4); 
-
-        wait_us(300*1000); 
-
-        Wheel.Speed(0.4,-0.9); 
-
-        wait_us(300*1000); 
-
-        Wheel.Speed(-0.9,0.4); 
-
-        wait_us(200*1000); 
-
-        Wheel.Speed(0.4,-0.9); 
-
-        wait_us(200*1000); 
-
-        Wheel.Speed(-0.9,0.4); 
-
-        wait_us(100*1000); 
-
-        Wheel.Speed(0.4,-0.9); 
-
-        wait_us(100*1000); 
-
-        Wheel.Speed(-0.9,0.4); 
-
-        wait_us(200*1000); 
-
-        Wheel.Speed(0.4,-0.9); 
-
-        wait_us(200*1000); 
-
-        Wheel.Speed(-0.9,0.4); 
-
-        wait_us(100*1000); 
-
-        Wheel.Speed(0.4,-0.9); 
-
-        wait_us(100*1000); 
-
-        Wheel.Speed(-0.9,0.4); 
-
-        wait_us(200*1000); 
-
-        Wheel.Speed(0.4,-0.9); 
-
-        wait_us(200*1000); 
-
-        Wheel.Speed(-0.9,0.4); 
-
-        wait_us(100*1000); 
-
-        Wheel.Speed(0.4,-0.9); 
-
-        wait_us(100*1000); 
-
-        Wheel.Speed(-0.9,0.4); 
-
-        wait_us(200*1000); 
-
-        Wheel.Speed(0.4,-0.9); 
-
-        wait_us(200*1000); 
-
-        Wheel.Speed(-0.9,0.4); 
-
-        wait_us(100*1000); 
-
-        Wheel.Speed(0.4,-0.9); 
-
-        wait_us(100*1000); 
-
-        Wheel.Speed(-0.9,0.4); 
-
-        wait_us(200*1000); 
-
-        Wheel.Speed(0.4,-0.9); 
-
-        wait_us(200*1000); 
-
-        Wheel.Speed(-0.9,0.4); 
-
-        wait_us(100*1000); 
-
-        Wheel.Speed(0.4,-0.9); 
-
+    wait_us(100*1000); 
+    }
+ 
         wait_us(100*1000); 
         Wheel.Stop();
         wait_us(1000*1000);
